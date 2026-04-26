@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RSVP - Théo's 30th Birthday</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Comic+Sans+MS&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="background"></div>
+<div class="container">
+  <header>
+    <div class="title-line">
+      <h1>THÉO'S 30TH BIRTHDAY</h1>
+      <img src="assets/images/attention.gif" alt="Attention!" class="attention-gif">
+    </div>
+  </header>
+
+  <nav class="menu">
+    <ul>
+      <li><a href="index.html" class="button">HOME</a></li>
+      <li><a href="info.html" class="button">INFO</a></li>
+      <li><a href="schedule.html" class="button">SCHEDULE</a></li>
+      <li><a href="gallery.html" class="button">GALLERY</a></li>
+      <li><a href="rsvp.html" class="button">RSVP</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="panel">
+      <h2>RSVP</h2>
+      <p>Please let me know if you can make it, so that I can book the hut! Deadline: <strong>01.07.2026</strong></p>
+
+      <form
+        action="https://docs.google.com/forms/d/e/1FAIpQLSdr15kZpwPBk4Gj1lSOxEde7ikNza4Ov4PkjsjN8W3QrljBTQ/formResponse"
+        class="rsvp-form"
+        method="POST"
+        target="_blank"
+      >
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="entry.604146936" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="entry.635690483" required>
+        </div>
+
+        <div class="form-group">
+          <label for="attending">Attending:</label>
+          <select id="attending" name="entry.1722388588_sentinel" required>
+            <option value="yes">Yes, I'll be there!</option>
+            <option value="no">No, sorry!</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="attending">Attending:</label>
+          <select id="diet" name="entry.930357828_sentinel">
+            <option value="omnivore">Omnivore</option>
+            <option value="vegetarian">Vegetarian</option>
+            <option value="vegan">Vegan</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="entry.299514936" rows="4"></textarea>
+        </div>
+
+        <button type="submit" class="retro-button">SEND RSVP</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with &hearts; and CSS by me</p>
+  </footer>
+</div>
+</body>
+</html>
