@@ -12,7 +12,7 @@
 
 /* Base Styles */
 body {
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'Comic Sans', serif;
     margin: 0;
     padding: 0;
     color: var(--text-color);
@@ -95,7 +95,7 @@ h1 {
     text-decoration: none;
     font-weight: bold;
     border: 3px solid var(--border-color);
-    font-family: 'Comic Sans', cursive;
+    font-family: 'Comic Sans', serif;
     font-size: 12px;
     text-align: center;
     transition: all 0.2s;
@@ -194,7 +194,7 @@ h1 {
     padding: 8px;
     border: 2px solid var(--border-color);
     background: var(--panel-bg);
-    font-family: 'Comic Sans MS', cursive;
+    font-family: 'Comic Sans', serif;
 }
 
 .retro-button {
@@ -203,7 +203,7 @@ h1 {
     padding: 10px 20px;
     font-weight: bold;
     cursor: pointer;
-    font-family: 'Comic Sans', cursive;
+    font-family: 'Comic Sans', serif;
     display: block;
     margin: 20px auto;
 }
