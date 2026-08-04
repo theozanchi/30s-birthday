@@ -154,9 +154,8 @@ h1 {
 }
 
 .alsace-gif {
-    height: 80px;
+    height: 60px;
     width: auto;
-    border: 3px solid var(--border-color);
 }
 
 .intro-text {
