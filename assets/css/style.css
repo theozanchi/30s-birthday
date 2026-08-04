@@ -104,6 +104,10 @@ h1 {
     padding-bottom: 5px;
 }
 
+.panel h3 {
+    color: magenta;
+}
+
 /* Retro Images */
 .retro-image {
     border: 3px solid var(--border-color);
@@ -143,7 +147,7 @@ h1 {
     flex: 1;
 }
 
-.hut-image {
+.big-image {
     width: 100%;
     max-width: 500px;
     border: 3px solid var(--border-color);
@@ -201,8 +205,8 @@ h1 {
 }
 
 .gallery-image {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     border: 3px solid var(--border-color);
 }
