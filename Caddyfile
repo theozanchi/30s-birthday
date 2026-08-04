@@ -1,4 +1,4 @@
-birthday.anarres.dev {
+localhost:8080 {
     root * .
     encode gzip
 

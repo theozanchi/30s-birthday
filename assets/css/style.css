@@ -17,7 +17,6 @@ body {
     padding: 0;
     color: var(--text-color);
     background: var(--bg-color);
-    background-image: url('https://via.placeholder.com/100x100/ff00ff/000000?text=90s'), url('https://via.placeholder.com/100x100/00ffff/000000?text=BIRTHDAY');
     background-repeat: repeat;
 }
 
